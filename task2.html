@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ICELAND VS INDIA</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style6.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <h1>Iceland vs India</h1>
+        <p>Population of Iceland { 372,520 } <<------->> Population of India { 1.408 billion }</p>
+        <img src="./images/Iceland.png" alt="Iceland Map" class="image-iceland">
+        <img src="./images/India.png" alt="India Map" class="image-india">
+        <img src="./images/earth.png" alt="Earth" class="image-earth">
+        <img src="./images/k4.png" alt="K4" class="image-k4">
+        <img src="./images/ruppee.png" alt="Rupee" class="image-rupee">
+        <img src="./images/dollar.png" alt="Dollar" class="image-dollar">
+        <img src="./images/rate.png" alt="Rate" class="image-rate">
+        <img src="./images/world2.png" alt="World 2" class="image-world2">
+        <img src="./images/world.png" alt="World" class="image-world">
+        <img src="./images/Iceland.png" alt="Iceland Map" class="image-iceland">
+        <img src="./images/India.png" alt="India Map" class="image-india">
+        <p>Exchange Rates | Tourism Expenditure | GDP per Capita (1995-2020)</p>
+        <div class="row">
+            <div class="col-md-6">
+                <!-- Container for D3.js Bubble Chart -->
+                <div id="bubble-cloud-container">
+                    <script src="bubble-cloud.js"></script>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <!-- Container for D3.js Bar Chart 1 -->
+                <div id="bar-chart-div-container">
+                    <h2 class="chart-title">Evolution of GDP per Capita: Iceland vs. India (1995-2020)</h2>
+                    <script src="bar-chart-div.js"></script>
+                    <div id="legend" class="legend-container"></div>
+                    <h3 class="info-bar-div">Data highlights the significant economic disparities between these two countries. Higher standard of living and greater economic development in Iceland.</h3>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <!-- Container for D3.js Bar Chart 2 using SVG -->
+                <h3 class="bar-title">Currency Chronicles: Iceland vs. India (1995-2021)</h3>
+                <svg id="bar-chart-svg-container-2">
+                    <!-- Bars will be appended here using D3.js -->
+                </svg>
+                <h3 class="info-bar-svg">Icelandic Krona (ISK) has a higher exchange rate compared to the Indian Rupee (INR). Indicating 1 ISK has historically been worth more than 1 INR</h3>
+            </div>
+            <!-- Container for Bubble Chart -->
+            <div class="col-md-4">
+                <!-- <h3 class="bubble-chart-title">Title for Bubble Chart</h3> -->
+                <div id="bubble-chart-container">
+                    <svg id="bubble-chart-with-axes"></svg>
+                </div>
+                <h4 class="info-chart-bubble">Economic trends, currency movements, and the relative economic strength of Iceland and India over the specified years. </h4>
+            </div>
+        </div>
+    </div>
+
+    <!-- Include Bootstrap JS and jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="bar-chart-svg.js">
+    </script>
+    <script src="bubble-chart.js"></script>
+</body>
+</html>

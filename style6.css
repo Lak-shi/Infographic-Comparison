@@ -1,0 +1,328 @@
+/* Style for the container's outline */
+.container-fluid {
+    width: 1000px;
+    min-height: 1600px;
+    border: 25px solid #48045e;
+    padding: 20px;
+    background-color: #f8f7ff;
+    position: relative; /* Add relative positioning to create a reference point for absolute positioning */
+}
+
+.container-fluid h1 {
+    font-size: 60px;
+    color: rgb(147, 104, 255);
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Georgia', serif;
+}
+
+.container-fluid p {
+    font-size: 18px;
+    color: rgb(6, 121, 6);
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Georgia', serif;
+}
+
+.image-iceland {
+    left: 14%; /* Use percentage-based positioning for left */
+    top: 2%; /* Use percentage-based positioning for top */
+    position: absolute;
+    max-width: 14%;
+    height: auto;
+    padding: 10px;
+}
+
+.image-india {
+    right: 15%; /* Use percentage-based positioning for right */
+    top: -1%; /* Use percentage-based positioning for top */
+    position: absolute;
+    max-width: 16%;
+    height: auto;
+    padding: 10px;
+}
+
+/* D3.js Bubble Cloud */
+#bubble-cloud-container {
+    /* border: 1px solid #ddd; */
+    padding: 10px;
+    /* background-color: #f8f8f8; */
+    margin-top: 20px;
+    width: 570px; /* Adjust the width as needed, e.g., 80% of the parent container */
+    height: 400px; /* Set the desired height for the container */
+    font-family: 'Georgia', serif;
+}
+
+/* Style for the heading within the container */
+#bubble-cloud-container h2 {
+    font-size: 24px; /* Adjust the font size */
+    color: #333; /* Set text color */
+    margin-bottom: 10px; /* Add bottom margin for spacing */
+}
+
+.impact-text {
+    font-size: 11px; /* Adjust the font size as needed */
+    fill: #333; /* Text color */
+    font-weight: bold; /* Bold text */
+    font-family: 'Georgia', serif; /* Font family */
+}
+
+.title-background {
+    fill: #c5bdff; /* Background color */
+}
+
+/* Style for the bar chart container */
+#bar-chart-div-container {
+    /* border: 1px solid #ddd; */
+    padding: 10px;
+    margin-top: 420px;
+    width: 460px; /* Adjust the width to fill the column */
+    height: 400px; /* Set the desired height for the container */
+    font-family: 'Georgia', serif;
+    overflow: auto; /* Add overflow:auto to enable scrolling if the content overflows */
+}
+
+.bar-chart-div-container h2 {
+    font-size: 20px; /* Adjust the font size */
+    color: #333; /* Set text color */
+    margin-bottom: 10px; /* Add bottom margin for spacing */
+}
+
+.bar {
+    margin-bottom: 6px;
+    text-align: right;
+    width: 0; /* Set an initial width */
+    transition: width 0.5s; /* Add a smooth transition effect for width changes */
+}
+
+.bar.Iceland {
+    background-color: rgb(174, 229, 249); /* Color for Iceland */
+}
+
+.bar.India {
+    background-color: rgb(169, 178, 255); /* Color for India */
+}
+
+/* Define CSS for tooltips */
+.tooltip {
+    position: absolute;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 2px 6px;
+    border-radius: 4px;
+    pointer-events: none;
+    font-size: 12px;
+    opacity: 0; /* Initially hidden */
+}
+
+/* Define CSS for tooltip line */
+.tooltip-line {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 5; /* Add dashes to the line */
+}
+
+.legend-container {
+    display: flex;
+    align-items: center;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.legend-color {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+/* Update CSS for year labels */
+.year-label {
+    margin-top: 70px;
+    text-align: left;
+    margin-left: 100px; /* Add left margin to create space between bars and labels */
+}
+.chart-title {
+    font-size: 18px; /* Adjust the font size as needed */
+    background-color: #ceb9fc; /* Add your desired background color here */
+    padding: 5px 10px; /* Add padding to create some space around the text */
+    margin-right: 20px;
+}
+
+.info-bar-div{
+    font-size: 13px; /* Adjust the font size as needed */
+    padding: 5px 5px; /*Add padding to create some space around the text */
+    text-align: right;
+    font-weight: lighter bold;
+    margin-right: 10px;
+}
+
+
+/* Style for the bar chart container */
+#bar-chart-svg-container-2 {
+    /* border: 1px solid #ddd; */
+    padding: 2px; /* Adjust padding as needed */
+    margin-top: -10px;
+    width: 500px; /* Make the width 100% to fill the available space */
+    height: 320px; /* Remove fixed height to allow it to adjust dynamically */
+    font-family: 'Georgia', serif;
+    overflow: auto; /* Add overflow:auto to enable scrolling if the content overflows */
+    background-color: #f8f7ff; /* Add background color as needed */
+}
+
+/* Style for horizontal bars */
+.bar-horizontal {
+    margin-right: 6px; /* Adjust margin as needed */
+    text-align: right;
+    height: 20px; /* Set the desired height for the horizontal bars */
+    transition: width 0.5s; /* Add a smooth transition effect for width changes */
+}
+
+/* Define CSS for tooltips */
+.tooltip-horizontal {
+    position: absolute;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 2px 6px;
+    border-radius: 4px;
+    pointer-events: none;
+    font-size: 12px;
+    opacity: 0; /* Initially hidden */
+}
+
+/* Define CSS for tooltip line */
+.tooltip-line-horizontal {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 5; /* Add dashes to the line */
+}
+
+.bar-title {
+    font-size: 19px; /* Adjust the font size as needed */
+    background-color: #c2aef8; /* Add your desired background color here */
+    padding: 5px 10px; /* Add padding to create some space around the text */
+    font-family: 'Georgia', serif;
+    margin-top: -200px;
+}
+
+.info-bar-svg{
+    font-size: 11px; /* Adjust the font size as needed */
+    padding: 5px 2px; /*Add padding to create some space around the text */
+    font-weight: bold;
+    font-family: 'Georgia', serif;
+}
+
+/*bubble chart */
+#bubble-cloud-container-3 {
+    border: 1px solid #ddd;
+    padding: 2px; /* Adjust padding as needed */
+    margin-top: -10px;
+    width: 500px; /* Make the width 100% to fill the available space */
+    height: 320px; /* Remove fixed height to allow it to adjust dynamically */
+    font-family: 'Georgia', serif;
+    overflow: auto; /* Add overflow:auto to enable scrolling if the content overflows */
+    background-color: #f8f7ff; /* Add background color as needed */
+}
+
+
+/* Style for the bubble chart container */
+#bubble-chart-container {
+    padding: 10px; /* Adjust padding as needed */
+    margin-top: 150px;
+    width: 600px; /* Adjust the width to fill the column */
+    height: 400px; /* Set the desired height for the container */
+    font-family: 'Georgia', serif;
+    overflow: auto; /* Add overflow:auto to enable scrolling if the content overflows */
+    background-color: #f8f7ff; /* Add background color as needed */
+}
+
+/* Tooltip styling */
+.tooltipbubble {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    pointer-events: none;
+    font-size: 12px;
+}
+
+
+.info-chart-bubble{
+    font-size: 11px; /* Adjust the font size as needed */
+    margin-top: -40px;
+    margin-left: -80px;
+    padding: 5px 2px; /*Add padding to create some space around the text */
+    font-weight: bold;
+    white-space: nowrap;
+    font-family: 'Georgia', serif;
+}
+
+
+/* Style for image with class "image-earth" */
+.image-earth {
+    width: 250px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    position: absolute; /* Position the image */
+    top: 1380px; /* Adjust the top position */
+    left: 10px; /* Adjust the left position */
+}
+
+/* Style for image with class "image-k4" */
+.image-k4 {
+    width: 200px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    position: absolute; /* Position the image */
+    top: 1000px; /* Adjust the top position */
+    left: 740px; /* Adjust the left position */
+}
+
+/* Style for image with class "image-rupee" */
+.image-rupee {
+    width: 230px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    position: absolute; /* Position the image */
+    top: 1000px; /* Adjust the top position */
+    left: 490px; /* Adjust the left position */
+}
+
+/* Style for image with class "image-dollar" */
+.image-dollar {
+    width: 260px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    position: absolute; /* Position the image */
+    top: 620px; /* Adjust the top position */
+    left: 200px; /* Adjust the left position */
+}
+
+/* Style for image with class "image-rate" */
+.image-rate {
+    width: 150px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    position: absolute; /* Position the image */
+    top: 1280px; /* Adjust the top position */
+    left: 160px; /* Adjust the left position */
+}
+
+/* Style for image with class "image-world2" */
+.image-world2 {
+    width: 260px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    position: absolute; /* Position the image */
+    top: 200px; /* Adjust the top position */
+    left: 680px; /* Adjust the left position */
+}
+
+/* Style for image with class "image-world" */
+.image-world {
+    width: 270px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    position: absolute; /* Position the image */
+    top: 430px; /* Adjust the top position */
+    left: 580px; /* Adjust the left position */
+}

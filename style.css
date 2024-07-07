@@ -1,0 +1,55 @@
+
+/* Center-align the content within the container */
+.centered-text {
+    text-align: center;
+}
+
+/* Style for the navigation menu */
+nav {
+    text-align: center;
+}
+
+/* Style for the task boxes */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    
+}
+
+.task-box1 {
+    display: inline-block;
+    border: 5px solid #333;
+    padding: 20px;
+    cursor: pointer; /* Change cursor to pointer on hover */
+    text-decoration: none; /* Remove underlines from links */
+    color: black; /* Set the text color */
+    margin-right: 100px;
+    margin-top: 100px;
+}
+
+.task-box2 {
+    display: inline-block;
+    border: 5px solid #333;
+    padding: 20px;
+    cursor: pointer; /* Change cursor to pointer on hover */
+    text-decoration: none; /* Remove underlines from links */
+    color: black; /* Set the text color */
+    margin-top: 100px;
+}
+
+.task-box:hover {
+    background-color: #eee; /* Change background color on hover */
+}
+
+nav ul li a {
+    font-size: 48px; /* Increase the font size to 32px */
+}
+
+/* Add space above the content */
+body {
+    margin-top: 180px;
+}

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 793.70081 1122.5197"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="wireframe.svg"
+   inkscape:version="1.3 (0e150ed, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.45531397"
+     inkscape:cx="493.06636"
+     inkscape:cy="572.13268"
+     inkscape:window-width="1440"
+     inkscape:window-height="900"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     id="layer1">
+    <rect
+       style="fill:#800080;fill-opacity:1;stroke-width:0.911121"
+       id="rect6"
+       width="796.4679"
+       height="1121.6799"
+       x="-2.9244599"
+       y="1.3130198"
+       inkscape:label="rect6" />
+    <rect
+       style="fill:#f8eff6;stroke-width:1.00157;fill-opacity:1"
+       id="rect1"
+       width="660.67303"
+       height="992.29492"
+       x="69.409233"
+       y="82.262794"
+       inkscape:label="rect1" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:47.8767px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';fill:#f8eff0;fill-opacity:1;stroke-width:2.99699"
+       x="174.80284"
+       y="173.97145"
+       id="text3"
+       transform="scale(0.95851767,1.0432776)"><tspan
+         id="tspan3"
+         x="174.80284"
+         y="173.97145"
+         style="fill:#060203;fill-opacity:1;stroke-width:2.99699">Infographics Title</tspan></text>
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke-width:1.00157"
+       id="rect4"
+       width="215.64529"
+       height="131.1657"
+       x="121.16153"
+       y="285.67444" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';fill:#000000;fill-opacity:1;stroke-width:1.00157"
+       x="162.28975"
+       y="362.37305"
+       id="text5"><tspan
+         id="tspan5"
+         x="162.28975"
+         y="362.37305"
+         style="fill:#f7f7f7;fill-opacity:1">Bubble CLoud</tspan></text>
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke-width:1.00157"
+       id="rect4-2"
+       width="215.64529"
+       height="131.1657"
+       x="478.24896"
+       y="466.18652" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';fill:#000000;fill-opacity:1;stroke-width:1.00157"
+       x="513.81934"
+       y="539.55042"
+       id="text5-7"><tspan
+         id="tspan5-0"
+         x="513.81934"
+         y="539.55042"
+         style="fill:#f7f7f7;fill-opacity:1">Bar Chart with div</tspan></text>
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke-width:1.00157"
+       id="rect4-2-9"
+       width="215.64529"
+       height="131.1657"
+       x="133.8293"
+       y="608.29395" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';fill:#000000;fill-opacity:1;stroke-width:1.00157"
+       x="166.06494"
+       y="684.99255"
+       id="text5-7-1"><tspan
+         id="tspan5-0-7"
+         x="166.06494"
+         y="684.99255"
+         style="fill:#f7f7f7;fill-opacity:1">Bar Chart with svg</tspan></text>
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke-width:1.00157"
+       id="rect4-2-9-5"
+       width="215.64529"
+       height="131.1657"
+       x="478.14154"
+       y="850.58704" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:16px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';fill:#000000;fill-opacity:1;stroke-width:1.00157"
+       x="519.26978"
+       y="927.28564"
+       id="text5-7-1-5"><tspan
+         id="tspan5-0-7-8"
+         x="519.26978"
+         y="927.28564"
+         style="fill:#f7f7f7;fill-opacity:1">Bubble Chart</tspan></text>
+    <rect
+       style="fill:#060203;fill-opacity:1;stroke-width:1.00157"
+       id="rect5"
+       width="70.693123"
+       height="55.896885"
+       x="639.52612"
+       y="136.45416"
+       inkscape:label="rect5" />
+    <rect
+       style="fill:#060203;fill-opacity:1;stroke-width:1.00157"
+       id="rect5-9"
+       width="70.693123"
+       height="55.896885"
+       x="93.479904"
+       y="136.53621"
+       inkscape:label="rect5-9" />
+  </g>
+</svg>
